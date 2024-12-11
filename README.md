@@ -26,7 +26,7 @@ This portfolio website is a personal project built to highlight my work as a web
 
 You can find the source code of this portfolio website on GitHub:
 
-[GitHub Repository Link](https://github.com/YourUsername/portfolio-website)
+[GitHub Repository Link](https://github.com/uhrzel/CHRISTIAN-PORTFOLIO)
 
 Feel free to explore the code and contribute. If you would like to fork the project or use it as a template, please follow the instructions below to set it up on your local machine.
 
