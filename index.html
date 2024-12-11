@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Christian | Portfolio</title>
+    <meta name="title" content="Christian - a student" />
+    <meta
+      name="description"
+      content="This is a portfolio website of Christian, a student."
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/require.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" href="./assets/images/hero-banner.png" />
+  </head>
+
+  <body>
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preloader" data-preloader>
+      <div class="preloader-circle"></div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="151"
+            height="28"
+            alt="Annie home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#" class="label-lg navbar-link has-after">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a
+                href="#about"
+                class="label-lg navbar-link has-after"
+                id="about-link"
+                >About Me</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a
+                href="./achievement.html"
+                class="label-lg navbar-link has-after"
+                id="about-link"
+                >Achievements</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a href="./skills.html" class="label-lg navbar-link has-after"
+                >Skills</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a href="./projects.html" class="label-lg navbar-link has-after"
+                >Projects</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a href="./hobbies.html" class="label-lg navbar-link has-after"
+                >Hobbies</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="./contact.html" class="label-lg navbar-link has-after"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <a href="./contact.html" class="btn btn-primary">Contact Now</a>
+
+        <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="section hero" aria-label="home">
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle">👋, My name is Christian</p>
+
+              <h1 class="headline-lg">I'm a Student</h1>
+              <p>20 Years Old | Nov 11, 2024</p>
+              <a href="#" class="btn btn-primary">Let's Start</a>
+            </div>
+
+            <figure class="hero-banner">
+              <img
+                src="./assets/images/christian2.jpeg"
+                width="540"
+                height="400"
+                alt="Annie, the blonde, dressed in a green hoodie with a smile on her face"
+                class="avatar-img"
+                style="border: 5px solid #e9d2d2; border-radius: 8px"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #CLIENT
+      -->
+
+        <section class="client" aria-label="Trusted client">
+          <div class="container">
+            <ul class="slider">
+              <li class="slider-item">
+                <img
+                  src="./assets/images/text1.svg"
+                  width="130"
+                  height="40"
+                  alt="clients"
+                  class="w-100"
+                />
+              </li>
+
+              <li class="slider-item">
+                <img
+                  src="./assets/images/text2.svg"
+                  width="130"
+                  height="40"
+                  alt="clients"
+                  class="w-100"
+                />
+              </li>
+
+              <li class="slider-item">
+                <img
+                  src="./assets/images/text3.svg"
+                  width="130"
+                  height="40"
+                  alt="clients"
+                  class="w-100"
+                />
+              </li>
+
+              <li class="slider-item">
+                <img
+                  src="./assets/images/text4.svg"
+                  width="130"
+                  height="40"
+                  alt="clients"
+                  class="w-100"
+                />
+              </li>
+
+              <li class="slider-item">
+                <img
+                  src="./assets/images/text5.svg"
+                  width="130"
+                  height="40"
+                  alt="clients"
+                  class="w-100"
+                />
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="section about" aria-label="about me" id="about">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="./assets/images/christian3.jpeg"
+                width="580"
+                height="554"
+                loading="lazy"
+                alt="Annie, the blonde, dressed in a black tops with a smile on her face"
+                class="w-100"
+                style="border: 5px solid #e9d2d2; border-radius: 8px"
+              />
+            </figure>
+
+            <div class="about-content">
+              <h2 class="title-lg">
+                I'm a student with a strong passion for motorcycling and online
+                gaming.
+              </h2>
+
+              <p class="body-md section-text">
+                I'm a student with a strong passion for motorcycling and online
+                gaming. I enjoy exploring new roads on my bike and diving into
+                immersive virtual worlds. Whether it’s racing on tracks or
+                teaming up with friends for a game, these hobbies keep me
+                engaged and challenged. I'm always eager to learn and grow
+                through new experiences, both on and off the road.
+              </p>
+
+              <div class="wrapper">
+                <a href="./contact.html" class="btn btn-primary">Contact Me</a>
+
+                <a href="./portfolio.html" class="btn btn-secondary"
+                  >Portfolio</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #SKILL
+      -->
+
+        <section class="section skill" aria-labelledby="skill-label">
+          <div class="container">
+            <div class="skill-content">
+              <h2 class="section-title headline-md" id="skill-label">
+                My Skills
+              </h2>
+
+              <ul class="skill-list">
+                <li>
+                  <div
+                    class="card card-sm"
+                    style="background-color: hsl(177, 39%, 72%)"
+                  >
+                    <div class="card-media">
+                      <ion-icon name="medal"></ion-icon>
+                    </div>
+                    <h2 class="card-title">Problem Solving</h2>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    class="card card-sm"
+                    style="background-color: hsl(41, 99%, 64%)"
+                  >
+                    <div class="card-media">
+                      <ion-icon name="calculator"></ion-icon>
+                    </div>
+                    <h2 class="card-title">Math Equations</h2>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    class="card card-sm"
+                    style="background-color: hsl(19, 97%, 85%)"
+                  >
+                    <div class="card-media">
+                      <ion-icon name="brush"></ion-icon>
+                    </div>
+                    <h2 class="card-title">Creativity</h2>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    class="card card-sm"
+                    style="background-color: hsl(221, 100%, 79%)"
+                  >
+                    <div class="card-media">
+                      <ion-icon name="chatbubbles"></ion-icon>
+                    </div>
+                    <h2 class="card-title">Good Communication</h2>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <figure class="skill-banner">
+              <img
+                src="./assets/images/christian1.jpeg"
+                width="581"
+                height="657"
+                loading="lazy"
+                alt="Annie, the blonde, dressed in a green hoodie with a smile on her face"
+                class="w-100"
+                style="border: 5px solid #e9d2d2; border-radius: 8px"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #CTA
+      -->
+
+        <section class="cta">
+          <div class="container">
+            <h2 class="title-lg">Intrested working with me?</h2>
+
+            <a href="./contact.html" class="btn btn-tertiary">Contact Now</a>
+          </div>
+        </section>
+
+        <!-- 
+        - #TESTIMONIALS
+      --></article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <!--    <ul class="social-list">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+        </ul>
+ -->
+        <p class="text-center">&copy; christiandale | all right reserved</p>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

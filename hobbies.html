@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Christian | Hobbies</title>
+    <meta name="title" content="Christian - a student" />
+    <meta
+      name="description"
+      content="This is a portfolio website of Christian, a student."
+    />
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/require.css" />
+    <link rel="stylesheet" href="./assets/css/pages/service.css" />
+  </head>
+
+  <body>
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preloader" data-preloader>
+      <div class="preloader-circle"></div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="./index.html" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="151"
+            height="28"
+            alt="Annie home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="./index.html" class="label-lg navbar-link has-after"
+                >Home</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a
+                href="./achievement.html"
+                class="label-lg navbar-link has-after"
+                id="about-link"
+                >Achievements</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a href="./skills.html" class="label-lg navbar-link has-after"
+                >Skills</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a href="./projects.html" class="label-lg navbar-link has-after"
+                >Projects</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a
+                href="./hobbies.html"
+                class="label-lg navbar-link has-after active"
+                >Hobbies</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="./contact.html" class="label-lg navbar-link has-after"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <a href="./contact.html" class="btn btn-primary">Contact Now</a>
+
+        <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #SERVICE
+      -->
+        <section
+          class="section hobbies has-bg-image"
+          aria-labelledby="hobbies-label"
+          style="background-image: url('./assets/images/service-bg.png')"
+        >
+          <div class="container">
+            <h2
+              class="section-title headline-md text-center"
+              id="hobbies-label"
+            >
+              My Hobbies & Interests
+            </h2>
+
+            <ul class="service-list">
+              <!-- Playing Basketball -->
+              <li class="card-container">
+                <div
+                  class="card card-md"
+                  style="background-color: hsl(177, 39%, 72%)"
+                >
+                  <div class="card-media">
+                    <ion-icon
+                      name="basketball-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="card-title title-sm">Playing Basketball</h3>
+
+                    <p class="body-sm">
+                      I enjoy playing basketball during my free time, as it
+                      helps me stay active and improves my teamwork and
+                      coordination skills.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Online Games -->
+              <li class="card-container">
+                <div
+                  class="card card-md"
+                  style="background-color: hsl(41, 99%, 64%)"
+                >
+                  <div class="card-media">
+                    <ion-icon
+                      name="game-controller-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="card-title title-sm">Online Games</h3>
+
+                    <p class="body-sm">
+                      I enjoy playing online games, as it allows me to unwind,
+                      improve my strategic thinking, and connect with others.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Interest in Motorcycles -->
+              <li class="card-container">
+                <div
+                  class="card card-md"
+                  style="background-color: hsl(19, 97%, 85%)"
+                >
+                  <div class="card-media">
+                    <ion-icon
+                      name="motorcycle-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="card-title title-sm">Interest in Motorcycles</h3>
+
+                    <p class="body-sm">
+                      I have a deep interest in motorcycles, learning about
+                      their mechanics, design, and the culture surrounding them.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <!--    <ul class="social-list">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+        </ul>
+ -->
+        <p class="text-center">&copy; christiandale | all right reserved</p>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
